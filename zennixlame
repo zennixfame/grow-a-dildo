@@ -1,4 +1,4 @@
-local authorizedURL = "https://raw.githubusercontent.com/zennixfame/grow-a-dildo/refs/heads/main/zennixlame"
+local authorizedURL = "https://raw.githubusercontent.com/zennixfame/grow-a-dildo/main/zennixlame"
 
 local function isAuthorizedSource()
     local scriptSource = debug.getinfo(1, "S").source
@@ -31,6 +31,7 @@ if not isAuthorizedSource() then
     ScreenGui:Destroy()
     error("Unauthorized script execution!")
 end
+
 
 
 
